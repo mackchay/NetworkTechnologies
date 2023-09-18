@@ -4,6 +4,8 @@ import java.net.*;
 
 public class MulticastDiscoveryStart {
 
+    private final static int PORT = 1234;
+
     public static void main(String[] args) {
 
         if (args.length != 2) {
@@ -34,8 +36,6 @@ public class MulticastDiscoveryStart {
             return;
         }
 
-        int port = 12345;
-
-        multicastMode.start(groupAddress, port);
+        multicastMode.start(groupAddress, PORT);
     }
 }
