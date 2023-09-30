@@ -8,34 +8,28 @@ public class MulticastDiscoveryStart {
 
     public static void main(String[] args) {
 
-        if (args.length != 2) {
+        if (args.length != 3) {
             System.out.println("Error: lack of arguments");
             return;
         }
 
-        String multicastGroup = args[0];
-        InetAddress groupAddress;
-
         try {
-            groupAddress = InetAddress.getByName(multicastGroup);
-        } catch (UnknownHostException e) {
-            System.out.println("False address of multicast.");
-            return;
-        }
+            MulticastParser parser = new MulticastParser();
+            String multicastGroup = args[0];
+            int port = Integer.parseInt(args[1]);
+            String mode = args[2];
 
-        MulticastMode multicastMode;
-        if (args[1].equals("--mode=receive")) {
-            multicastMode = new MulticastReceiver();
-        }
-        else if (args[1].equals("--mode=send")) {
-            multicastMode = new MulticastSender();
-        }
-        else {
+            InetAddress groupAddress;
+            groupAddress = InetAddress.getByName(multicastGroup);
+            MulticastMode multicastMode = parser.parseMode(mode);
+            multicastMode.start(groupAddress, port);
+        } catch (NumberFormatException e) {
+            System.out.println("False format of port.");
+        } catch (IllegalArgumentException e) {
             System.out.println("Error: incorrect mode format. Use '--mode=receive'" +
                     " or '--mode=send'");
-            return;
+        } catch (UnknownHostException e) {
+            System.out.println("False address of multicast.");
         }
-
-        multicastMode.start(groupAddress, PORT);
     }
 }
