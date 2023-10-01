@@ -3,52 +3,51 @@ package ru.nsu.ccfit.haskov;
 import java.io.IOException;
 import java.net.*;
 import java.util.*;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
 
-public class MulticastReceiver implements MulticastMode {
+public class MulticastReceiver extends Multicast {
 
     private static final int DATA_SIZE = 1024;
     private static final int TIMEOUT = 5000;
 
     @Override
-    public void start(InetAddress groupAddress, int port) {
+    public void start(String key, InetAddress groupAddress, int port) {
         SocketAddress socketAddress = new InetSocketAddress(groupAddress, port);
         Set<InetAddress> ipList = new HashSet<>();
 
         try (MulticastSocket socket = new MulticastSocket(port)) {
             socket.joinGroup(socketAddress, null);
             System.out.println("Ready for receive messages form copies...");
+            System.out.println("Press 'q' to stop receiving");
             Thread thread = new Thread(() -> {
                 try {
-                    receiveDatagram(socket, ipList);
+                    receiveDatagram(key, socket, ipList);
                 } catch (IOException e) {
-                    throw new RuntimeException(e);
+                    socket.close();
                 }
             });
             thread.start();
             TimerTask task = checkTimeout(ipList);
             Timer timer = new Timer();
             timer.schedule(task, 0, TIMEOUT);
-            thread.join();
-
-        } catch (SocketTimeoutException e) {
-            System.out.println("Waiting time is out.");
-            Thread.currentThread().interrupt();
+            handlerQuit(timer);
+            socket.close();
+            timer.cancel();
+            thread.interrupt();
+            System.out.println("Receiver closed.");
         } catch (IOException e) {
-            e.printStackTrace();
-        } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
     }
 
-    private void receiveDatagram(MulticastSocket socket, Set<InetAddress> ipList) throws IOException {
+    private void receiveDatagram(String key, MulticastSocket socket, Set<InetAddress> ipList) throws IOException {
         while (true) {
             byte[] receiveData = new byte[DATA_SIZE];
             DatagramPacket receivePacket = new DatagramPacket(receiveData, receiveData.length);
             socket.receive(receivePacket);
             InetAddress senderAddress = receivePacket.getAddress();
-            ipList.add(senderAddress);
+            if (Arrays.equals(receivePacket.getData(), key.getBytes())) {
+                ipList.add(senderAddress);
+            }
         }
     }
 
