@@ -2,6 +2,7 @@ package ru.nsu.ccfit.haskov;
 
 import java.io.IOException;
 import java.net.*;
+import java.nio.charset.StandardCharsets;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -24,7 +25,7 @@ public class MulticastSender extends Multicast {
     }
 
     private static Timer getTimer(String key, SocketAddress socketAddress, MulticastSocket socket) {
-        byte[] sendData = key.getBytes();
+        byte[] sendData = key.getBytes(StandardCharsets.UTF_8);
 
         DatagramPacket sendPacket = new DatagramPacket(sendData, sendData.length, socketAddress);
         Timer timer = new Timer();

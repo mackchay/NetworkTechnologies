@@ -2,6 +2,7 @@ package ru.nsu.ccfit.haskov;
 
 import java.io.IOException;
 import java.net.*;
+import java.nio.charset.StandardCharsets;
 import java.util.*;
 
 public class MulticastReceiver extends Multicast {
@@ -41,11 +42,11 @@ public class MulticastReceiver extends Multicast {
 
     private void receiveDatagram(String key, MulticastSocket socket, Set<InetAddress> ipList) throws IOException {
         while (true) {
-            byte[] receiveData = new byte[DATA_SIZE];
+            byte[] receiveData = new byte[key.getBytes(StandardCharsets.UTF_8).length];
             DatagramPacket receivePacket = new DatagramPacket(receiveData, receiveData.length);
             socket.receive(receivePacket);
             InetAddress senderAddress = receivePacket.getAddress();
-            if (Arrays.equals(receivePacket.getData(), key.getBytes())) {
+            if (Arrays.equals(receiveData, key.getBytes(StandardCharsets.UTF_8))) {
                 ipList.add(senderAddress);
             }
         }
