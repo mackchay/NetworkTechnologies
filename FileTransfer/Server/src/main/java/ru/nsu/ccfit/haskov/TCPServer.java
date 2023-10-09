@@ -1,6 +1,7 @@
 package ru.nsu.ccfit.haskov;
 
 import java.io.*;
+import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.concurrent.ExecutorService;
@@ -9,7 +10,7 @@ import java.util.concurrent.ScheduledThreadPoolExecutor;
 public class TCPServer {
 
     private static final String UPLOAD_DIR = "uploads";
-    private static final int BUFFER_SIZE = Integer.MAX_VALUE - 1;
+    private static final int BUFFER_SIZE = 2000;
 
     private static final int MAX_FILE_LENGTH = 4096;
     private static final int MAX_CLIENTS = 10;
@@ -21,10 +22,10 @@ public class TCPServer {
         ServerSocket serverSocket;
         try {
             serverSocket = new ServerSocket(port);
+            System.out.println("Server started at " + InetAddress.getLocalHost() + " and listening in " + port);
         } catch (IOException e) {
             throw new RuntimeException("ERROR: can't create server socket on port " + port);
         }
-        System.out.println("Server started and listening in " + port);
 
         while (true) {
             Socket clientSocket;
@@ -59,7 +60,7 @@ public class TCPServer {
                 System.out.println("Preparing for uploading " + fileName);
                 long startTime, curTime, checkpointTime;
                 FileOutputStream fileOutputStream = getFileOutputStream(fileName);
-                byte[] buffer = new byte[2000];
+                byte[] buffer = new byte[BUFFER_SIZE];
                 int bytesReceived;
                 long totalBytesReceived = 0, iterBytesReceived = 0;
 
@@ -132,9 +133,5 @@ public class TCPServer {
 
         fileOutputStream = new FileOutputStream(file);
         return fileOutputStream;
-    }
-
-    private void printResult() {
-
     }
 }

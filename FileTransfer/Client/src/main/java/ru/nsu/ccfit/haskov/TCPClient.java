@@ -9,6 +9,8 @@ import java.util.TimerTask;
 
 public class TCPClient {
 
+    private static final int FILE_SIZE = 4096;
+
     public void sendFile(TCPClientOptions options) {
         Socket socket;
         try {
@@ -20,6 +22,9 @@ public class TCPClient {
         System.out.println("Client is connected to server on " + options.port());
 
         File file = new File(String.valueOf(options.path()));
+        if (file.getName().length() > FILE_SIZE) {
+            throw new RuntimeException("File has too large name.");
+        }
 
         FileInputStream fileInputStream;
         try {
