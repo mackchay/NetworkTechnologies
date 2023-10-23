@@ -20,7 +20,7 @@ public class Main {
             port = Integer.parseInt(cmd.getOptionValue("p"));
         }
         else {
-            throw new RuntimeException("Invalid arguments, it should contain: <port>");
+            throw new RuntimeException("Invalid arguments, it should contain: -p <port>");
         }
         TCPServer server = new TCPServer();
         server.start(port);

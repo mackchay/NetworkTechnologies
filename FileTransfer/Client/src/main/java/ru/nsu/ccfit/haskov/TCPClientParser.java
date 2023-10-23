@@ -12,6 +12,7 @@ import java.nio.file.Path;
 
 public class TCPClientParser {
     private final Options options = new Options();
+    private final String example = "Usage: -f <file> -i <ip-address> -p <port> -s <speed>";
     public TCPClientParser() {
         options.addOption("f", "file", true, "Path to file.");
         options.addOption("p", "port", true, "Server port.");
@@ -35,29 +36,29 @@ public class TCPClientParser {
             path = Path.of(cmd.getOptionValue("f"));
         }
         else {
-            throw new RuntimeException("ERROR: there is no -f (file) option.");
+            throw new RuntimeException("ERROR: there is no -f <file> option.\n" + example);
         }
         if (cmd.hasOption("p")) {
             port = Integer.parseInt(cmd.getOptionValue("p"));
         }
         else {
-            throw new RuntimeException("ERROR: there is no -p (port) option.");
+            throw new RuntimeException("ERROR: there is no -p <port> option.\n" + example);
         }
         if (cmd.hasOption("i")) {
             try {
                 ip = InetAddress.getByName(cmd.getOptionValue("i"));
             } catch (UnknownHostException e) {
-                throw new RuntimeException("ERROR: wrong format of ip address.");
+                throw new RuntimeException("ERROR: wrong format of ip address.\n" + example);
             }
         }
         else {
-            throw new RuntimeException("ERROR: there is no -i (ip) option.");
+            throw new RuntimeException("ERROR: there is no -i <ip> option.\n" + example);
         }
         if (cmd.hasOption("s")) {
             speed = Integer.parseInt(cmd.getOptionValue("s"));
         }
         else {
-            throw new RuntimeException("ERROR: there is no -s (speed) option.");
+            throw new RuntimeException("ERROR: there is no -s <speed> option.\n" + example);
         }
         return new TCPClientOptions(path, port, ip, speed);
     }

@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FileTransfer.Server:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FileTransfer_Server_jar</output-path>
+    <root id="archive" name="FileTransfer.Server.main.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="FileTransfer.Server.main" />
+      <element id="module-output" name="FileTransfer.main" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.5.0/dc98be5d5390230684a092589d70ea76a147925c/commons-cli-1.5.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
