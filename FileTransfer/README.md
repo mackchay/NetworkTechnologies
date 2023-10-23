@@ -1,5 +1,4 @@
 # How to use
-<<<<<<< HEAD
 This is a "FileTransfer". Program can send files or receive them.
 Module Server is the part which receiving files. Module Client is the part which sending files.
 Open out/artifacts and run jar file of client or server.
