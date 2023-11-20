@@ -39,7 +39,7 @@ public class Places {
                 "Max Temp: " + maxTemp + "*C\n" +
                 "Min Temp: " + minTemp + "*C\n" +
                 "Wind speed: " + speed + "m/s\n" +
-                "Pressure: " + Double.parseDouble(pressure) * 0.7 + " mmHg";
+                "Pressure: " + Double.parseDouble(pressure) * 0.75 + " mmHg";
     }
 
 
@@ -100,7 +100,7 @@ public class Places {
             places.add(count + ")" + " " + "Country: " + elementObj.get("country")
                     + ", City: " + elementObj.get("city")
                     + ", Name: " + elementObj.get("name")
-                    + ", Osm value: " + elementObj.get("osm_value"));
+                    + ", Type: " + elementObj.get("osm_value"));
             coords.put(count, new Pair<>(((JsonObject) elementObj.get("point")).get("lng").getAsDouble(),
                     ((JsonObject) elementObj.get("point")).get("lat").getAsDouble()));
             count += 1;
