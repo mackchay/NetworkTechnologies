@@ -50,7 +50,7 @@ public class DNSResolver {
             Optional<ARecord> record = records.stream().filter(it -> it instanceof ARecord).limit(1)
                     .map(it -> (ARecord) it).findAny();
             byte[] address = record.orElseThrow(UnknownHostException::new).getAddress().getAddress();
-            ProxyServer.startConnect(address, clientContextMap.remove(response.getHeader().getID()));
+            ProxyServer.startConnection(address, clientContextMap.remove(response.getHeader().getID()));
         } catch (IOException e) {
             log.error(e);
         }

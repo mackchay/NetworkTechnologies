@@ -95,7 +95,7 @@ public class ProxyServer {
             Attachment attachment = ((Attachment) serverKey.attachment());
             channel.finishConnect();
             log.debug("Finish connect to " + channel.getRemoteAddress());
-            attachment.getIn().put(attachment.getReply().put(1, (byte) 0)).flip();
+            attachment.getIn().put(attachment.getReply().put(1, (byte) 0) ).flip();
             attachment.setOut(((Attachment) attachment.getDestinationKey().attachment()).getIn());
             ((Attachment) attachment.getDestinationKey().attachment()).setOut(attachment.getIn());
             attachment.getDestinationKey().interestOps(SelectionKey.OP_WRITE | SelectionKey.OP_READ);
@@ -184,13 +184,13 @@ public class ProxyServer {
                     }
                 }
                 assert addr != null;
-                startConnect(addr, clientAttachment);
+                startConnection(addr, clientAttachment);
             }
             default -> throw new IllegalStateException("Unrecognized state");
         }
     }
 
-    public static void startConnect(byte[] address, Attachment context) throws IOException {
+    public static void startConnection(byte[] address, Attachment context) throws IOException {
         SocketChannel destinationChannel = SocketChannel.open();
         destinationChannel.configureBlocking(false);
         destinationChannel.connect(new InetSocketAddress(InetAddress.getByAddress(address), context.getPort()));
