@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="adea0647-d1aa-4172-947c-88498f7144ad" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../ProxyServer/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ProxyServer/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$Direction 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$Direction$1 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$Direction$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$Direction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameConfig 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameConfig$1 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameConfig$Builder 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameConfig$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameConfigOrBuilder 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameConfigOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$1 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$AckMsg 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$AckMsg$1 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$AckMsg$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$AckMsg$Builder 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$AckMsg$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$AckMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$AckMsgOrBuilder 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$AckMsgOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$AnnouncementMsg 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$AnnouncementMsg$1 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$AnnouncementMsg$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$AnnouncementMsg$Builder 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$AnnouncementMsg$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$AnnouncementMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$AnnouncementMsgOrBuilder 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$AnnouncementMsgOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$Builder 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$ErrorMsg 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$ErrorMsg$1 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$ErrorMsg$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$ErrorMsg$Builder 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$ErrorMsg$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$ErrorMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$ErrorMsgOrBuilder 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$ErrorMsgOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$JoinMsg 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$JoinMsg$1 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$JoinMsg$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$JoinMsg$Builder 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$JoinMsg$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$JoinMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$JoinMsgOrBuilder 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$JoinMsgOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$PingMsg 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$PingMsg$1 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$PingMsg$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$PingMsg$Builder 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$PingMsg$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$PingMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$PingMsgOrBuilder 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$PingMsgOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$RoleChangeMsg 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$RoleChangeMsg$1 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$RoleChangeMsg$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$RoleChangeMsg$Builder 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$RoleChangeMsg$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$RoleChangeMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$RoleChangeMsgOrBuilder 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$RoleChangeMsgOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$StateMsg 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$StateMsg$1 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$StateMsg$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$StateMsg$Builder 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$StateMsg$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$StateMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$StateMsgOrBuilder 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$StateMsgOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$SteerMsg 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$SteerMsg$1 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$SteerMsg$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$SteerMsg$Builder 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$SteerMsg$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$SteerMsg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$SteerMsgOrBuilder 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$SteerMsgOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$TypeCase 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage$TypeCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessageOrBuilder 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameMessageOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GamePlayer 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GamePlayer$1 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GamePlayer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GamePlayer$Builder 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GamePlayer$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GamePlayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GamePlayerOrBuilder 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GamePlayerOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GamePlayers 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GamePlayers$1 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GamePlayers$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GamePlayers$Builder 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GamePlayers$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GamePlayers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GamePlayersOrBuilder 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GamePlayersOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameState 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameState$1 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameState$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameState$Builder 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameState$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameState$Coord 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameState$Coord$1 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameState$Coord$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameState$Coord$Builder 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameState$Coord$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameState$Coord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameState$CoordOrBuilder 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameState$CoordOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameState$Snake 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameState$Snake$1 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameState$Snake$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameState$Snake$Builder 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameState$Snake$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameState$Snake$SnakeState 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameState$Snake$SnakeState$1 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameState$Snake$SnakeState$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameState$Snake$SnakeState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameState$Snake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameState$SnakeOrBuilder 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameState$SnakeOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameStateOrBuilder 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$GameStateOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$NodeRole 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$NodeRole$1 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$NodeRole$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$NodeRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$PlayerType 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$PlayerType$1 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$PlayerType$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto$PlayerType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/me/ippolitov/fit/snakes/SnakesProto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snake.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/io/AvailableGamesManager 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/io/AvailableGamesManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/io/Config 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/io/Config.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/io/Main 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/io/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/io/MulticastManager 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/io/MulticastManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/io/PlayerController 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/io/PlayerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/io/PlayersManager 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/io/PlayersManager$PlayerWrapper 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/io/PlayersManager$PlayerWrapper$PlayerWrapperBuilder 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/io/PlayersManager$PlayerWrapper$PlayerWrapperBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/io/PlayersManager$PlayerWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/io/PlayersManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/io/PlayersRateComp 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/io/PlayersRateComp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/io/UnicastManager 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/io/UnicastManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/io/datatypes/MessageWithSender 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/io/datatypes/MessageWithSender$MessageWithSenderBuilder 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/io/datatypes/MessageWithSender$MessageWithSenderBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/io/datatypes/MessageWithSender.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/io/datatypes/PlayerSignature 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/io/datatypes/PlayerSignature.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/io/datatypes/ToSendMessageWrapper 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/io/datatypes/ToSendMessageWrapper$ToSendMessageWrapperBuilder 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/io/datatypes/ToSendMessageWrapper$ToSendMessageWrapperBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/io/datatypes/ToSendMessageWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/snake/SnakeMasterController 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/snake/SnakeMasterController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/snake/SnakeView 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/snake/SnakeView$Control 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/snake/SnakeView$Control.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/snake/SnakeView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/snake/SnakeViewController 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/snake/SnakeViewController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/ui/GameUI 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/ui/GameUI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/ui/components/GamesList 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/ui/components/GamesList$1 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/ui/components/GamesList$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/ui/components/GamesList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/ui/components/PlayersTable 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/ui/components/PlayersTable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/ui/components/SnakeCanvas 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/ui/components/SnakeCanvas$1 2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/ui/components/SnakeCanvas$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main/snakegame/ui/components/SnakeCanvas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/ippolitov/fit/snakes/SnakesProto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/snakegame/io/AvailableGamesManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/snakegame/io/Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/snakegame/io/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/snakegame/io/MulticastManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/snakegame/io/PlayerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/snakegame/io/PlayersManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/snakegame/io/PlayersRateComp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/snakegame/io/UnicastManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/snakegame/io/datatypes/MessageWithSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/snakegame/io/datatypes/PlayerSignature.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/snakegame/io/datatypes/ToSendMessageWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/snakegame/snake/SnakeMasterController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/snakegame/snake/SnakeView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/snakegame/snake/SnakeViewController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/snakegame/ui/GameUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/snakegame/ui/components/GamesList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/snakegame/ui/components/PlayersTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/snakegame/ui/components/SnakeCanvas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/proto/snakes.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/snake.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2ZfhEMLl7fuR07pfjDL737y4oHm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build SnakeGame.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.SnakeGame [:GameUI.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/egor/IdeaProjects/NetworkTechnology/SnakeGame&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="GameUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="snakegame.ui.GameUI" />
+      <module name="SnakeGame.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="snakegame.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GameUI" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-3183f394aec4-86fc8109" />
+        <option value="jdk-17.0.9-corretto-17.0.9-f644763e9732-220112af" />
+        <option value="jdk-18.0.2-corretto-18.0.2-3183f394aec4-0dc1e537" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="adea0647-d1aa-4172-947c-88498f7144ad" name="Changes" comment="" />
+      <created>1702818928753</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702818928753</updated>
+      <workItem from="1702818929833" duration="3072000" />
+      <workItem from="1702978388970" duration="119000" />
+      <workItem from="1703771006983" duration="617000" />
+      <workItem from="1703772743193" duration="200000" />
+      <workItem from="1703938181676" duration="368000" />
+      <workItem from="1703938671298" duration="237000" />
+      <workItem from="1703939130016" duration="841000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
